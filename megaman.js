@@ -319,7 +319,7 @@ function update() {
 				enemyJump = -20;
 			}
 			// 3000点に限定アイテム配置
-			else if (score == 100) {
+			else if (score == 3000) {
 				enemyKbn = 5;
 				enemyImage.src = ImgArray.Item; // ネジ
 				enemyPosY = 313;
